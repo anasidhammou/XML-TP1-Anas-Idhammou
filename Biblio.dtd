@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT biblio (etudiant+) >
+<!ELEMENT etudiant (livre+) >
+<!ELEMENT livre EMPTY >
+
+<!ATTLIST etudiant
+            Code CDATA #REQUIRED
+            Nom CDATA #REQUIRED
+            Prenom CDATA #REQUIRED
+            Age CDATA #IMPLIED
+>
+
+
+<!ATTLIST livre
+            Id CDATA #REQUIRED
+            Titre CDATA #REQUIRED
+            Date_Emprunt CDATA #REQUIRED
+            rendu (oui|non) 'non'
+>
