@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio SYSTEM "file:/C:/Users/aidhammou/Desktop/TP%20XML%20Anas/Biblio.dtd">
+<biblio>
+    <etudiant Code="1" Nom="Idhammou" Prenom="Anas">
+        <livre Id="1" Titre="XML" Date_Emprunt="2026-11-01" rendu="non"/>
+    </etudiant>
+    <etudiant Code="2" Nom="Idhammou" Prenom="Hamza">
+        <livre Id="2" Titre="Android" Date_Emprunt="2026-10-01" rendu="oui"/>
+    </etudiant>
+    <etudiant Code="3" Nom="Einchtein" Prenom="Albret">
+        <livre Id="3" Titre="Mathématiques" Date_Emprunt="2026-09-01" rendu="oui"/>
+    </etudiant>
+    <etudiant Code="4" Nom="Eddisson" Prenom="Thomas">
+        <livre Id="4" Titre="Eléctricité" Date_Emprunt="2026-08-01" rendu="oui"/>
+    </etudiant>
+</biblio>
