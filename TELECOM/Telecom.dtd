@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Operateur (client+) >
+<!ELEMENT client (abonnement+) >
+<!ELEMENT abonnement (facture+) >
+<!ELEMENT facture EMPTY >
+
+<!ATTLIST client 
+        code CDATA #REQUIRED
+        Nom CDATA #REQUIRED
+>
+
+<!ATTLIST abonnement 
+        num CDATA #REQUIRED
+        type CDATA #REQUIRED
+        dateAb CDATA #REQUIRED
+>
+
+
+<!ATTLIST facture 
+        NumFacture CDATA #REQUIRED
+        DateFacture CDATA #REQUIRED
+        Montant CDATA #REQUIRED
+        Regler (oui | non) 'non'
+>
+

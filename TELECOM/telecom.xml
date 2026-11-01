@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Operateur SYSTEM "file:/C:/Users/aidhammou/Desktop/TP%20XML%20Anas/TELECOM/Telecom.dtd">
+<Operateur>
+    <client code="1" Nom="Anas">
+        <abonnement num="1" type="Wifii" dateAb="2026-01-11">
+            <facture NumFacture="1" DateFacture="2026-01-11" Montant="100.00" Regler="oui"/>
+        </abonnement>
+        <abonnement num="2" type="Gsm" dateAb="2026-01-11">
+            <facture NumFacture="1" DateFacture="2026-01-11" Montant="200.00" Regler="non"/>
+        </abonnement>
+    </client>
+    <client code="2" Nom="Hassan">
+        <abonnement num="1" type="Wifii" dateAb="2025-01-11">
+            <facture NumFacture="1" DateFacture="2025-01-11" Montant="150.00" Regler="non"/>
+        </abonnement>
+        <abonnement num="2" type="Gsm" dateAb="2025-01-11">
+            <facture NumFacture="1" DateFacture="2025-01-11" Montant="250.00" Regler="oui"/>
+        </abonnement>
+    </client>
+    <client code="3" Nom="Mustapha">
+        <abonnement num="1" type="Wifii" dateAb="2024-01-11">
+            <facture NumFacture="1" DateFacture="2024-01-11" Montant="100.00" Regler="oui"/>
+        </abonnement>
+        <abonnement num="2" type="Gsm" dateAb="2024-01-11">
+            <facture NumFacture="1" DateFacture="2024-01-11" Montant="200.00" Regler="oui"/>
+        </abonnement>
+    </client>
+</Operateur>
