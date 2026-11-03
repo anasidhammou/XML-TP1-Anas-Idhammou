@@ -1,0 +1,21 @@
+<!ELEMENT Releves (dateReleve, solde, Operations+)>
+<!ELEMENT dateReleve (#PCDATA)>
+<!ELEMENT solde (#PCDATA)>
+<!ELEMENT Operations (operation+)>
+<!ELEMENT operation EMPTY>
+
+<!ATTLIST Releves
+    RIB CDATA #REQUIRED
+>
+
+<!ATTLIST Operations
+    dateDebut CDATA #REQUIRED
+    dateFin CDATA #REQUIRED
+>
+
+<!ATTLIST operation
+    type CDATA #REQUIRED
+    date CDATA #REQUIRED
+    montant CDATA #REQUIRED
+    description CDATA #REQUIRED
+>
