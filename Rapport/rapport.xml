@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rapport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/aidhammou/Desktop/Xml%20TP/XML-TP1-Anas-Idhammou/Rapport/rapport.xsd">
+    <mandat num="1" date="2016-02-03" montant="2000" etat="reçu">
+        <expediteur cin="01" nom="Idhammou" prenom="anas" ville="mohammedia"/>
+        <Destinataire cin="02" nom="Idhammou" prenom="hamza" ville="Casablanca"/>
+    </mandat>
+    <mandat num="2" date="2018-02-03" montant="2000" etat="non_reçu">
+        <expediteur cin="012" nom="Idhammou" prenom="Adil" ville="mohammedia"/>
+        <Destinataire cin="023" nom="Idhammou" prenom="Mohammed" ville="Casablanca"/>
+    </mandat>
+    <mandat num="3" date="2017-02-03" montant="2000" etat="reçu">
+        <expediteur cin="014" nom="Idhammou" prenom="hassan" ville="mohammedia"/>
+        <Destinataire cin="025" nom="Idhammou" prenom="Said" ville="Casablanca"/>
+    </mandat>
+</rapport>
